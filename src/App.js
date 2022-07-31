@@ -4,10 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
 
 
-function App() {
+function App(props) {
+
   return (
     <>
-      <Header/>
+      <Header 
+      arrCart={props.arrCart} 
+      arrNav={props.arrNav}
+      arrCardsBlock={props.arrCardsBlock}
+      />
     </>
   );
 }

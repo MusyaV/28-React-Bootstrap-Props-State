@@ -24,7 +24,7 @@ export default class CarouselBox extends Component {
                         src={imgTwo}
                         alt='two'
                     />
-                    <Carousel.Caption  className=' bg-black bg-opacity-50'>
+                    <Carousel.Caption className=' bg-black bg-opacity-50'>
                         <h3 className='text-warning'>New York</h3>
                         <p className='text-warning'>Lorem, ipsum dolor sit amet consectetur</p>
                     </Carousel.Caption>
