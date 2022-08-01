@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap'
 import '../App.css';
 
@@ -37,5 +37,6 @@ const About = (props) => {
         </Container>
     )
 }
+
 export default About;
 

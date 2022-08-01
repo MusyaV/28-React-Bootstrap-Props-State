@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import CarouselBox from '../Components/CarouselBox'
 
@@ -31,6 +31,6 @@ const Home = (props) => {
       </Container>
     </>
   )
-
 }
+
 export default Home;

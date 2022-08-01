@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Nav, Navbar, FormControl, Container, Form, Button } from 'react-bootstrap';
 import logo from './1.png';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -52,4 +52,5 @@ const Header = (props) => {
         </>
     );
 };
+
 export default Header;

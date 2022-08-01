@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Card, Col, Container, ListGroup, ListGroupItem, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap'
 
 const Blog = (props) => {
@@ -58,4 +58,5 @@ const Blog = (props) => {
     </>
   )
 }
+
 export default Blog;
